@@ -14,25 +14,32 @@
     <h1 id="title">marvel universe survey</h1>
     <p id="description">things that fans should know</p>
   </header>
-</div>
-<form id="survey-form">
+  </div>
+  <form id="survey-form">
 
-  <label for="name">What's Your Name</label>
-  <input type="name" id="name" required>
+  <label for="name" id="name-label">What's Your Name</label>
+  <input type="name" id="name" required placeholder="Capitan Rodrigues">
 
-  <label for="email">What's Your email</label>
-  <input type="email" id="email" required>
+  <label for="email" id="email-label">What's Your email</label>
+  <input type="email" id="email" required placeholder="capamericafan2000@gmail.com">
 
-  <label for="number">How Old Are You</label>
-  <input type="number" id="number" required>
+  <label for="number" id="number-label">How Old Are You</label>
+  <input type="number" id="number" required min="12" max="99" placeholder="age">
+
+  <label for="movies" id="selector">choose your favorite movie </label>
+  <select type="dropdown" id="dropdown">
+    <option value="raganrok">thor:raganrok</option>
+    <option value="widow">black widow</option>
+    <option value="doctor">doctor strange</option>
+    <option value="endgame">end game </option>
+    <option value="noway">spiderman: no way home </option>
+
+  </select>
 
 
+  </form>
 
-
-
-</form>
-
-</div>
+  </div>
 
 
 
